@@ -1,0 +1,23 @@
+body {
+	font-family: 'Comfortaa';
+	color: #000;
+}
+#header-nav {
+	background: #99ffb5;
+	border: 1px dotted #000;
+	border-radius: 0;
+}
+
+#header-nav #brand-name {
+	font-size: 1.6em;
+	font-weight:  bold;
+}
+#header-nav #menu {
+
+
+}
+
+#section {
+	background: #bfffe9;
+	
+}
