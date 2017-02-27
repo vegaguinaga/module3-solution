@@ -4,7 +4,7 @@ body {
 }
 #header-nav {
 	background: #99ffb5;
-	border: 1px dotted #000;
+	
 	border-radius: 0;
 }
 
@@ -12,12 +12,29 @@ body {
 	font-size: 1.6em;
 	font-weight:  bold;
 }
-#header-nav #menu {
-
-
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+	border:1px solid #000;
 }
 
-#section {
-	background: #bfffe9;
-	
+#collapsable-nav ul {
+
+	background-color: #fff;
+}
+#collapsable-nav li:nth-child(1), li:nth-child(2) {
+	border-bottom: 1px solid gray;
+}
+
+#menu-section {
+	background-color: gray;
+}
+
+#menu-section h3{
+	padding-top: 10px;
+}
+#menu-section a {
+	color:blue;
+}
+#menu-section a:hover {
+	color:red;
+	text-decoration: none;
 }
